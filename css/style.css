@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 56, 112);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+.result{
+    text-align: center;
+    background-color: blueviolet;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.hide{    
+    display: none;
+}
+.result button{
+    background-color: gold;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+form{
+    color: #000;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+form > div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+form button{
+    background-color: rgb(8, 214, 101);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.green{
+    background-color: rgb(94, 254, 142);
+}
+.red{
+    background-color: rgb(241, 132, 132);
+}

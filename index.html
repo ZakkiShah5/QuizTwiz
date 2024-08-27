@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Twiz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Quiz Twiz</h1>
+            <p>Test How much people know about Zakki</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="result hide">
+            <h2>You Scored: <span class="resultTotal"></span></h2>
+            <button class="again" onclick="reset()">Try again</button>
+        </div>
+        <div class="container">
+            <form>
+                <div class="radios">
+                    <label>What's Zakki's age?</label>
+                    <div class="radio">
+                        <input type="radio" id="age_23" name="age" value="23">
+                        <label for="age_23">23</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="age_21" name="age" value="21">
+                        <label for="age_21">21</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="age_27" name="age" value="27">
+                        <label for="age_27">27</label>
+                    </div>
+                </div>
+
+                <div class="radios">
+                    <label>Where is he from?</label>
+                    <div class="radio">
+                        <input type="radio" id="country_india" name="country" value="india">
+                        <label for="country_india">India</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="country_pakistan" name="country" value="pakistan">
+                        <label for="country_pakistan">Pakistan</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="country_brazil" name="country" value="brazil">
+                        <label for="country_brazil">Brazil</label>
+                    </div>
+                </div>
+
+                <div class="radios">
+                    <label>What's his favorite color?</label>
+                    <div class="radio">
+                        <input type="radio" id="color_blue" name="color" value="blue">
+                        <label for="color_blue">Navy Blue</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="color_yellow" name="color" value="yellow">
+                        <label for="color_yellow">Yellow</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="color_black" name="color" value="black">
+                        <label for="color_black">Black</label>
+                    </div>
+                </div>
+
+                <div class="radios">
+                    <label>What's his favorite animal?</label>
+                    <div class="radio">
+                        <input type="radio" id="animal_dog" name="animal" value="dog">
+                        <label for="animal_dog">Dog</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="animal_horse" name="animal" value="horse">
+                        <label for="animal_horse">Horse</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="animal_cat" name="animal" value="cat">
+                        <label for="animal_cat">Cat</label>
+                    </div>
+                </div>
+
+                <div class="radios">
+                    <label>What's his favorite language?</label>
+                    <div class="radio">
+                        <input type="radio" id="lang_english" name="lang" value="english">
+                        <label for="lang_english">English</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="lang_portuguese" name="lang" value="portuguese">
+                        <label for="lang_portuguese">Portuguese</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="lang_js" name="lang" value="js">
+                        <label for="lang_js">JavaScript</label>
+                    </div>
+                </div>
+
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
